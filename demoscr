@@ -1,0 +1,6 @@
+if [ $# -ne 2 ]
+then
+	echo "Error : Supply to numbers" 1>&2
+	exit 1
+fi
+echo "Sum is `expr $1 + $2`"

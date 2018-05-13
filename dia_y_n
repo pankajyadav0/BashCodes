@@ -1,0 +1,7 @@
+dialog --title "Alert: Del file" --backtitle "Linux shell script" --yesno "\nDo you want to delete '/use/games/espdiff' file " 7 60
+sel=$?
+case $sel in 
+	0) echo "User select to del file";;
+	1) echo "User select not to del file";;
+	255) echo "Canceled by user by pressing [ESC] key";;
+esac

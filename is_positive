@@ -1,0 +1,12 @@
+if [ $# -eq 0 ]
+then
+	echo "Error, $0 need one argument"
+exit 1
+fi
+
+if [ $1 -gt 0 ]
+then
+	echo "$1 is greater than 0 and is positive"
+else
+	echo "please enter a positive number"
+fi

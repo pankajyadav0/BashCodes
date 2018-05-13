@@ -1,0 +1,6 @@
+echo 'Enter your age'
+read age
+echo 'Enter your name'
+read name
+n_yr=`expr $age + 1`
+echo "Hi $name, next year your age will be $n_yr"
